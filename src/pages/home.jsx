@@ -3,9 +3,6 @@ import Navbar from '../components/navbar'
 import { bannerhome, icon, person1, person2, person3 } from '../assets/images'
 import Banner from '../components/banner'
 import Chat from '../components/chat'
-import Slider from 'react-slick'
-import "slick-carousel/slick/slick.css"
-import "slick-carousel/slick/slick-theme.css"
 import Contactform from '../components/contactform'
 import Footer from '../components/footer'
 
