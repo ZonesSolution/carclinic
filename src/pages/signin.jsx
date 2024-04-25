@@ -20,7 +20,9 @@ const SignIn = ({ active }) => {
                                     <input className='border px-2 py-2 rounded-md' type="email" placeholder='Email Address' />
                                     <input className='border px-2 py-2 rounded-md' type="text" placeholder='Password' />
                                     <Link to={'/forget-password'} className='cursor-pointer underline'>Forget Password ?</Link>
-                                    <input className='text-white bg-[#011E33] px-[30px] py-[10px] text-md font-medium rounded-md w-1/4 cursor-pointer' type="submit" value="Continue" />
+                                    <Link to={'/dashboard'}>
+                                        <input className='text-white bg-[#011E33] px-[30px] py-[10px] text-md font-medium rounded-md w-1/4 cursor-pointer' type="submit" value="Continue" />
+                                    </Link>
                                 </div>
                             </div>
                         </form>

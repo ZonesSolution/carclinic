@@ -20,6 +20,14 @@ import feature1 from './feature1.png'
 import feature2 from './feature2.png'
 import feature3 from './feature3.png'
 import feature4 from './feature4.png'
+import car from './car2d.png'
+
+import partner1 from './partner1.png'
+import partner2 from './partner2.png'
+import partner3 from './partner3.png'
+import partner4 from './partner4.png'
+import partner5 from './partner5.png'
+import partner6 from './partner6.png'
 
 export{
     logo,
@@ -33,5 +41,7 @@ export{
     person3,
     formimg,email,location,phone, facebook,instagram,twitter,
     feature1,feature2,feature3,feature4,
-    privacybanner
+    privacybanner,
+    car,
+    partner1,partner2,partner3,partner4,partner5,partner6
 }

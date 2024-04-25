@@ -7,6 +7,7 @@ import Signup from './pages/signup'
 import SignIn from './pages/signin'
 import ForgetPassword from './pages/forgetpassword'
 import Verify from './pages/verify'
+import Dashboard from './pages/dashboard'
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
           <Route path="/signin" element={<SignIn />} />
           <Route path="/forget-password" element={<ForgetPassword />} />
           <Route path="/verify" element={<Verify />} />
+          <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
     </Router>
   )
