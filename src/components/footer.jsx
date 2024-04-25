@@ -1,5 +1,6 @@
 import React from 'react'
 import { facebook, instagram, twitter } from '../assets/images'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -17,9 +18,9 @@ const Footer = () => {
             <p className='text-black px-2 pb-2'>abdoundaoak@gmail.com</p>
         </div>
         <div>
-            <p className='text-black px-2 pb-2'>
+            <Link to={'/privacy-policy'} className='text-black px-2 pb-2'>
                 Data Privacy Policy
-            </p>
+            </Link>
         </div>
     </div>
   )

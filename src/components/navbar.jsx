@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { logo } from '../assets/images'
 import { Link } from 'react-router-dom'
 
-const Navbar = ({active}) => {
+const Navbar = ({ active }) => {
   return (
     <nav className='bg-white py-2 px-3 flex'>
       <div className='w-[30%]'>
@@ -16,8 +16,12 @@ const Navbar = ({active}) => {
         </ul>
       </div>
       <div className='w-[20%] flex items-center justify-center gap-2'>
-        <button className='bg-[#DBDBFE] px-[30px] py-[10px] text-xl font-bold rounded-full'>Log In</button>
-        <button className='bg-[#011E33] px-[30px] py-[10px] text-white text-xl font-bold rounded-full'>Sign Up</button>
+        <Link to={'/signin'}>
+          <button className='bg-[#DBDBFE] px-[30px] py-[10px] text-xl font-bold rounded-full'>Log In</button>
+        </Link>
+        <Link to={'/signup'}>
+          <button className='bg-[#011E33] px-[30px] py-[10px] text-white text-xl font-bold rounded-full'>Sign Up</button>
+        </Link>
       </div>
     </nav>
   )
