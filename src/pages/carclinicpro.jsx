@@ -9,7 +9,7 @@ import Contactform from '../components/contactform'
 const Carclinicpro = () => {
     return (
         <>
-            <Navbar />
+            <Navbar active={1}/>
             <Banner banner={carclinicpro} hpart1={'Carclinic pro - beta'} textp1={'We offering well-trained mechanics and excellent customer'} textp2={'service, all at competitive prices of vehicle repairs at your home'} textp3={'or place of work'} />
             <Chat />
             <div className='flex flex-col gap-6 py-16'>

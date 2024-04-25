@@ -31,7 +31,7 @@ const Home = () => {
     
     return (
         <>
-            <Navbar />
+            <Navbar active={0}/>
             <Banner banner={bannerhome} hpart1={'Get Answers to your'} hpart2={'car issues in minutes'} textp1={'We offering well-trained mechanics and excellent customer'} textp2={'service, all at competitive prices of vehicle repairs at your home'} textp3={'or place of work.'} />
             <Chat />
             <div className='bg-[#011E33] my-20 flex flex-col items-center pb-20 pt-8'>

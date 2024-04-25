@@ -1,5 +1,6 @@
 import logo from './logo.png'
 import bannerhome from './bannerhome.png'
+import privacybanner from './privacybanner.png'
 import carclinicpro from './carclinicpro.png'
 import hour from './hour.png'
 import guarantee from './guarantee.png'
@@ -31,5 +32,6 @@ export{
     person2,
     person3,
     formimg,email,location,phone, facebook,instagram,twitter,
-    feature1,feature2,feature3,feature4
+    feature1,feature2,feature3,feature4,
+    privacybanner
 }
