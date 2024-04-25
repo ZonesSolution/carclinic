@@ -6,7 +6,9 @@ const Navbar = ({ active }) => {
   return (
     <nav className='bg-white py-2 px-3 flex'>
       <div className='w-[30%]'>
-        <img src={logo} alt="logo" />
+        <Link to={'/'}>
+          <img src={logo} alt="logo" />
+        </Link>
       </div>
       <div className='w-[50%] flex items-center justify-end px-20'>
         <ul className='flex items-center justify-end gap-12'>

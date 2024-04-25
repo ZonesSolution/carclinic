@@ -18,7 +18,9 @@ const ForgetPassword = ({ active }) => {
                             <div className='w-full'>
                                 <div className='flex flex-col gap-6'>
                                     <input className='border px-2 py-2 rounded-md' type="email" placeholder='Email Address' />
-                                    <input className='text-white bg-[#011E33] px-[30px] py-[10px] text-md font-medium rounded-md w-1/4 cursor-pointer' type="submit" value="Continue" />
+                                    <Link to={'/verify'}>
+                                        <input className='text-white bg-[#011E33] px-[30px] py-[10px] text-md font-medium rounded-md w-1/4 cursor-pointer' type="submit" value="Continue" />
+                                    </Link>
                                 </div>
                             </div>
                         </form>

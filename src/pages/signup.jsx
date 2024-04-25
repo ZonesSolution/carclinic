@@ -39,7 +39,7 @@ const Signup = ({ active }) => {
                                 </div>
                             </div>
                         </form>
-                        <p className='py-4 font-medium'>Already have an account ? <span className='cursor-pointer'>SignIn</span></p>
+                        <p className='py-4 font-medium'>Already have an account ? <Link to={'/signin'} className='cursor-pointer'>SignIn</Link></p>
                     </div>
                 </div>
             </div>
