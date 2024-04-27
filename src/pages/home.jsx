@@ -39,7 +39,7 @@ const Home = () => {
                 <iframe className='h-[731px] w-[571px] max-sm:h-80 max-sm:w-56' src="https://www.youtube.com/embed/-5MFfr4D-2s?list=TLGGIm8jdYghNnwyNDA0MjAyNA" title="CarClinic Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             <div className='bg-white pb-20 flex flex-col items-center w-full'>
-                <h2 className='text-center text-4xl font-bold text-[#011E33] max-sm:text-xl'>We have helped 3000+ Customers <br className='max-sm:hidden'></br> What They Are Saying</h2>
+                <h2 className='text-center text-4xl font-bold text-[#011E33] max-sm:text-xl max-sm:px-4'>We have helped 3000+ Customers <br className='max-sm:hidden'></br> What They Are Saying</h2>
                 <div className='m-auto'>
                     <div className='mt-8 flex px-8 gap-12 max-sm:flex-col'>
                         {data.map((d) => (
