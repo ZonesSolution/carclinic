@@ -12,8 +12,8 @@ const PrivacyPolicy = ({ active }) => {
             <div className='bg-white py-6 flex justify-center'>
                 <img src={chatimage} alt="chat-image" />
             </div>
-            <div className='px-28'>
-                <h2 className='text-[#011E33] text-center text-4xl font-bold pb-4'>Respectful Data Use</h2>
+            <div className='px-28 max-sm:px-6'>
+                <h2 className='text-[#011E33] text-center text-4xl max-sm:text-2xl font-bold pb-4'>Respectful Data Use</h2>
                 <p>
                     AI Mechanic website is owned by AI Mechanic, which is a data controller of your personal data.
                     <br></br><br></br>

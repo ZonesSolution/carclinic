@@ -1,23 +1,27 @@
 import React, { useState } from 'react'
-import { logo } from '../assets/images'
+import { logo, menu } from '../assets/images'
 import { Link } from 'react-router-dom'
 
 const Navbar = ({ active }) => {
+  const [submenu, setSubmenu] = useState(false)
   return (
-    <nav className='bg-white py-2 px-3 flex max-sm:hidden'>
-      <div className='w-[30%]'>
+    <nav className='bg-white py-2 px-3 flex max-sm:flex-col'>
+      <div className={`w-[30%] flex items-center max-sm:w-full max-sm:${submenu ? 'pb-6' : 'pb-0'}`}>
         <Link to={'/'}>
           <img src={logo} alt="logo" />
         </Link>
+        <Link onClick={()=>setSubmenu(!submenu)} className='hidden max-sm:block' to={'/'}>
+          <img src={menu} width={40} alt="logo" />
+        </Link>
       </div>
-      <div className='w-[50%] flex items-center justify-end px-20'>
-        <ul className='flex items-center justify-end gap-12'>
+      <div className={`w-[50%] flex items-center justify-end px-20 max-sm:w-[100%] max-sm:${submenu ? 'block' : 'hidden'}`}>
+        <ul className='flex items-center justify-end gap-12 max-sm:gap-4 max-sm:flex-col max-sm:w-full'>
           <Link to={'/'} className={`${active === 0 ? 'bg-[#011E33] px-[30px] py-[10px] text-white rounded-full cursor-pointer' : 'cursor-pointer'}`}>CarClinic</Link>
           <Link to={'/car-clinic-pro'} className={`${active === 1 ? 'bg-[#011E33] px-[30px] py-[10px] text-white rounded-full cursor-pointer' : 'cursor-pointer'}`}>CarClinic Pro</Link>
           <Link to={'/privacy-policy'} className={`${active === 2 ? 'bg-[#011E33] px-[30px] py-[10px] text-white rounded-full cursor-pointer' : 'cursor-pointer'}`}>Privacy Policy</Link>
         </ul>
       </div>
-      <div className='w-[20%] flex items-center justify-center gap-2'>
+      <div className={`w-[20%] flex items-center justify-center gap-2 max-sm:w-full max-sm:flex-col max-sm:pt-4 max-sm:${submenu ? 'flex-col' : 'hidden'}`}>
         <Link to={'/signin'}>
           <button className='bg-[#DBDBFE] px-[30px] py-[10px] text-xl font-bold rounded-full'>Log In</button>
         </Link>
@@ -25,6 +29,8 @@ const Navbar = ({ active }) => {
           <button className='bg-[#011E33] px-[30px] py-[10px] text-white text-xl font-bold rounded-full'>Sign Up</button>
         </Link>
       </div>
+
+      {/* mobile menu */}
     </nav>
   )
 }
