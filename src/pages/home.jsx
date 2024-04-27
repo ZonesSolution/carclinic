@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../components/navbar'
-import { bannerhome, icon, person1, person2, person3 } from '../assets/images'
+import { bannerhome, guarantee, icon, person1, person2, person3 } from '../assets/images'
 import Banner from '../components/banner'
 import Chat from '../components/chat'
 import Contactform from '../components/contactform'
@@ -32,7 +32,7 @@ const Home = () => {
     return (
         <>
             <Navbar active={0}/>
-            <Banner banner={bannerhome} hpart1={'Get Answers to your'} hpart2={'car issues in minutes'} textp1={'We offering well-trained mechanics and excellent customer'} textp2={'service, all at competitive prices of vehicle repairs at your home'} textp3={'or place of work.'} />
+            <Banner banner={bannerhome} hpart1={'Get Answers to your'} hpart2={'car issues in minutes'} textp1={'We use cutting-edge AI models trained on car manuals,'} textp2={'youtube videos, car forums, and car data on internet to give'} textp3={'customized answers to your car questions in minutes.'} picture={guarantee}/>
             <Chat />
             <div className='bg-[#011E33] my-20 flex flex-col items-center pb-20 pt-8'>
                 <h2 className='text-white text-5xl font-bold py-12'>Free Advice In Minutes</h2>
@@ -49,8 +49,8 @@ const Home = () => {
                                     <p>{d.review}</p>
                                 </div>
                                 <div className='flex items-center gap-4 bg-[#011E33] px-6 py-4'>
-                                    <img src={d.img} alt="customer" />
-                                    <p className='text-white'>{d.name}</p>
+                                    {/* <img src={d.img} alt="customer" />
+                                    <p className='text-white'>{d.name}</p> */}
                                 </div> 
                             </div>
                         ))}

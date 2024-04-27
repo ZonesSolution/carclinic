@@ -14,8 +14,9 @@ const Footer = () => {
             </div>
         </div>
         <div>
-            <p className='text-black px-2 pb-2'>Contact Us:</p>
-            <p className='text-black px-2 pb-2'>abdoundaoak@gmail.com</p>
+            <p className='text-black px-2 pb-2'>Location : 125 Western Ave, Boston, MA 02163</p>
+            <p className='text-black px-2 pb-2'>Email: Abdou@heydrian.us</p>
+            <p className='text-black px-2 pb-2'>Phone : 401-349-1992</p>
         </div>
         <div>
             <Link to={'/privacy-policy'} className='text-black px-2 pb-2'>

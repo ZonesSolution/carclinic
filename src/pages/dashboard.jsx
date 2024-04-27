@@ -12,7 +12,7 @@ const Dashboard = () => {
             </div>
             <button className='bg-[#011E33] font-bold w-full py-8 text-[#bdbdbd] text-4xl'>Click Here To Chat With Us</button>
             <div className='flex flex-col py-8'>
-                <h2 className='text-[#011E33] text-3xl font-bold pb-4 text-center'>Car Clinic Supply Partner</h2>
+                <h2 className='text-[#011E33] text-3xl font-bold pb-4 text-center'>Shop For Parts</h2>
                 <div className='flex flex-col justify-center items-center gap-4'>
                     <div className='flex gap-6'>
                         <img src={partner1} alt="partner" />

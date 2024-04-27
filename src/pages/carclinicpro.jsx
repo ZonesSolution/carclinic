@@ -3,14 +3,14 @@ import Navbar from '../components/navbar'
 import Footer from '../components/footer'
 import Chat from '../components/chat'
 import Banner from '../components/banner'
-import { carclinicpro, feature1, feature2, feature3, feature4 } from '../assets/images'
+import { carclinicpro, feature1, feature2, feature3, feature4, free } from '../assets/images'
 import Contactform from '../components/contactform'
 
 const Carclinicpro = () => {
     return (
         <>
             <Navbar active={1}/>
-            <Banner banner={carclinicpro} hpart1={'Carclinic pro - beta'} textp1={'We offering well-trained mechanics and excellent customer'} textp2={'service, all at competitive prices of vehicle repairs at your home'} textp3={'or place of work'} />
+            <Banner banner={carclinicpro} hpart1={'Carclinic pro - beta'} textp1={'We are using AI to build the ultimate car repair database for technicians'} textp2={'you can get to the information you need without having to click through endless pages'} textp3={'just type the question and get the answers.'} picture={free}/>
             <Chat />
             <div className='flex flex-col gap-6 py-16'>
                 <h2 className='text-center text-4xl font-bold text-[#011E33]'>Key Features</h2>
