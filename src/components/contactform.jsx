@@ -40,13 +40,13 @@ const Contactform = () => {
                         </div>
                     </div>
                 </div>
-                <div className='bg-white rounded-2xl px-8 py-12 max-sm:py-4 flex flex-col w-1/2 max-sm:w-full'>
+                <div className='bg-white rounded-2xl px-8 py-12 flex flex-col w-1/2 max-sm:w-full'>
                     <h2 className='text-center text-[#011E33] text-2xl font-bold pb-6 max-sm:pb-2 max-sm:text-xl'>HOW CAN WE HELP</h2>
                     <form className='flex flex-col gap-4'>
-                        <input className='border px-4 py-2 max-sm:py-0' type="text" placeholder='YOUR NAME'/>
-                        <input className='border px-4 py-2 max-sm:py-0' type="text" placeholder='PHONE NUMBER'/>
-                        <input className='border px-4 py-2 max-sm:py-0' type="text" placeholder='EMAIL ADDRESS'/>
-                        <textarea className='border px-4 py-2 max-sm:py-0 h-44 max-sm:h-24' name="your-issue" id="" cols="30" rows="10" placeholder='YOUR ISSUE'></textarea>
+                        <input className='border px-4 py-2' type="text" placeholder='YOUR NAME'/>
+                        <input className='border px-4 py-2' type="text" placeholder='PHONE NUMBER'/>
+                        <input className='border px-4 py-2' type="text" placeholder='EMAIL ADDRESS'/>
+                        <textarea className='border px-4 py-2 h-44 max-sm:h-24' name="your-issue" id="" cols="30" rows="10" placeholder='YOUR ISSUE'></textarea>
                         <input className='text-white bg-[#011E33] px-[30px] py-[10px] text-xl font-bold rounded-md self-center' type="submit" value="SEND MESSAGE" />
                     </form>
                 </div>
