@@ -40,7 +40,7 @@ const Contactform = () => {
                         </div>
                     </div>
                 </div>
-                <div className='bg-white rounded-2xl px-8 py-12 max-sm:py-4 flex flex-col w-1/2 max-sm:w-full'>
+                <div className='bg-white rounded-2xl px-8 py-12 flex flex-col w-1/2 max-sm:w-full'>
                     <h2 className='text-center text-[#011E33] text-2xl font-bold pb-6'>HOW CAN WE HELP</h2>
                     <form className='flex flex-col gap-4'>
                         <input className='border px-4 py-2' type="text" placeholder='YOUR NAME'/>
