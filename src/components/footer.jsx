@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
-    <div className='px-28 flex justify-between text-white py-12 items-center'>
+    <footer className='px-28 max-sm:px-4 flex justify-between text-white py-12 items-center max-sm:flex-col'>
         <div>
             <p className='text-black px-2 pb-2'>Follow Us</p>
             <div className='flex gap-2'>
@@ -23,7 +23,7 @@ const Footer = () => {
                 Data Privacy Policy
             </Link>
         </div>
-    </div>
+    </footer>
   )
 }
 

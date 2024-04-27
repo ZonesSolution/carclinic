@@ -35,13 +35,13 @@ const Home = () => {
             <Banner banner={bannerhome} hpart1={'Get Answers to your'} hpart2={'car issues in minutes'} textp1={'We use cutting-edge AI models trained on car manuals,'} textp2={'youtube videos, car forums, and car data on internet to give'} textp3={'customized answers to your car questions in minutes.'} picture={guarantee}/>
             <Chat />
             <div className='bg-[#011E33] my-20 flex flex-col items-center pb-20 pt-8'>
-                <h2 className='text-white text-5xl font-bold py-12'>Free Advice In Minutes</h2>
-                <iframe width="597" height="731" src="https://www.youtube.com/embed/-5MFfr4D-2s?list=TLGGIm8jdYghNnwyNDA0MjAyNA" title="CarClinic Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2 className='text-white text-5xl font-bold py-12 max-sm:text-xl'>Free Advice In Minutes</h2>
+                <iframe className='h-[731px] w-[571px] max-sm:h-80 max-sm:w-56' src="https://www.youtube.com/embed/-5MFfr4D-2s?list=TLGGIm8jdYghNnwyNDA0MjAyNA" title="CarClinic Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             <div className='bg-white pb-20 flex flex-col items-center w-full'>
-                <h2 className='text-center text-4xl font-bold text-[#011E33]'>We have helped 3000+ Customers <br></br> What They Are Saying</h2>
+                <h2 className='text-center text-4xl font-bold text-[#011E33] max-sm:text-xl'>We have helped 3000+ Customers <br className='max-sm:hidden'></br> What They Are Saying</h2>
                 <div className='m-auto'>
-                    <div className='mt-8 flex px-8 gap-12'>
+                    <div className='mt-8 flex px-8 gap-12 max-sm:flex-col'>
                         {data.map((d) => (
                             <div className='border-2 border-[#011E33] rounded-md' key={d.id}>
                                 <div className='flex flex-col px-6 py-8 gap-12'>
