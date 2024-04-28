@@ -20,7 +20,7 @@ const Footer = () => {
         </div>
         <div>
             <Link to={'/privacy-policy'} className='text-black px-2 pb-2'>
-                Data Privacy Policy
+                Privacy Policy
             </Link>
         </div>
     </footer>
