@@ -10,7 +10,7 @@ const Contactform = () => {
                 className="absolute inset-0 bg-cover bg-center"
                 style={{ backgroundImage: `url(${formimg})` }}
             ></div>
-            <div className="absolute inset-0 flex max-sm:flex-col px-28 max-sm:px-4 items-center gap-20 max-sm:py-6">
+            <div className="absolute inset-0 flex max-sm:flex-col max-sm:justify-center px-28 max-sm:px-4 items-center gap-20 max-sm:py-6">
                 <div className='flex flex-col w-1/2 max-sm:w-full'>
                     <div>
                         <h3 className='text-white text-3xl font-bold pb-2 max-sm:text-xl'>TRUST OUR SERVICE TO GET <br className='max-sm:hidden'></br> YOU BACK ON THE ROAD</h3>
