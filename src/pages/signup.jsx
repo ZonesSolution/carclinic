@@ -95,7 +95,6 @@ const Signup = ({ active }) => {
                                         onChange={handleChange}
                                         pattern="[2-9]{1}[0-9]{9}"
                                         title="Please enter a valid US phone number (10 digits)"
-                                        required
                                     />
 
                                     <input

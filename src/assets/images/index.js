@@ -30,9 +30,10 @@ import partner5 from './partner5.png'
 import partner6 from './partner6.png'
 import free from './free.png'
 import menu from './menu.png'
+import send from './send.png'
 
 export{
-    logo,free,menu,
+    logo,free,menu,send,
     bannerhome,carclinicpro,
     hour,
     guarantee,

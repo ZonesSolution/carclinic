@@ -49,6 +49,7 @@ const Navbar = ({ active }) => {
         }
         {authenticated && (
           <>
+            <Link to={'/dashboard/user'}>Dashboard</Link>
             <button onClick={handleLogout} className='bg-[#011E33] px-[30px] py-[10px] text-white text-xl font-bold rounded-full'>Logout</button>
           </>
         )}
